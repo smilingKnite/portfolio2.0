@@ -1,0 +1,133 @@
+body, footer {
+    text-align: center;
+  }
+
+header, .me { position: fixed; }
+
+h1, .imag h3 {
+      color: #1AA1E8;
+    }
+
+    .imag figure, footer, body {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+.imag h3, h1 h3, .me h3 { text-decoration: underline; }
+
+body {
+  background-color: black;
+  background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+  font-family: "Source Code Pro";
+  width: 100%;
+}
+
+.image img { max-height: 30px; }
+
+img.thumbnail {
+    width: 200px;
+    display: inline-block;
+  }
+
+.thumbnail:hover { transform: scale(1.03); }
+
+  .imag a { padding: 20px; }
+
+ .imag figure { display: inline-block; }
+
+ .imag a figure figcaption {
+   color: lightgray;
+    text-decoration: overline;
+  }
+
+.navv li {
+ display: inline;
+ list-style-type: none;
+
+ margin: 10px;
+ text-align: center;
+ color: #1AA1E8;
+ box-sizing: border-box;
+ font-size: 20px;
+ width: 10%;
+ 
+  }
+
+.navv a {
+ color: #1AA1E8;
+ list-style-type: none;
+  }
+
+.navv a:hover {
+    color: #00ff00;
+}
+.navv li:last-child {
+  padding:10px;
+  border-right: 0px;
+  }
+
+header {
+ background-color: black;
+ float: left;
+ width: 100%;
+ padding: 0px;
+ margin-top: 0px;
+ background-image: url(http://38.media.tumblr.com/3e34017bf0bf21273a63e82559ea0aa0/tumblr_n6z0ihoN8V1tn7zuzo1_500.gif);
+ background-position: bottom;
+ background-size: 10%;
+ z-index: 5;
+
+  }
+
+.navv li:hover {
+    color: red;
+  font-size: 21px;
+}
+
+h1 {
+ float: left;
+ background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 30px;
+ margin: 0px;
+ width:30%;
+ text-decoration: underline;
+ }
+
+footer {
+    background-color: #1AA1E8;
+    color: black;
+    font-size: 14px;
+    padding: 1px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    position: fixed;
+    bottom: 0px;
+
+}
+
+.imag h3 { font-size: 20px; }
+
+.imag {
+float: right;
+width: 60%;
+margin-right: 20px;
+transform: translateY(100px);
+z-index: -5;
+border-left: dotted;
+border-color: #1AA1E8;
+opacity: 0.8;
+}
+
+.me {
+  float: left;
+  color: #1AA1E8;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 100px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  }

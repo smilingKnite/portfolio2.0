@@ -1,0 +1,153 @@
+
+body, footer {
+    text-align: center;
+  }
+
+header { position: fixed; }
+
+h1 {
+      color: #1AA1E8;
+    }
+
+ footer, body {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+body {
+  background-color: black;
+  background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+  font-family: "Source Code Pro";
+  width: 100%;
+}
+
+
+.navv li {
+ display: inline;
+ list-style-type: none;
+ margin: 10px;
+ text-align: center;
+ color: #1AA1E8;
+ box-sizing: border-box;
+ font-size: 20px;
+ width: 10%;
+
+  }
+
+.navv a {
+ color: #1AA1E8;
+ list-style-type: none;
+  }
+
+.navv a:hover {
+    color: #00ff00;
+}
+.navv li:last-child {
+  padding:10px;
+  border-right: 0px;
+  }
+
+header {
+ background-color: black;
+ float: left;
+ width: 100%;
+ padding: 0px;
+ margin-top: 0px;
+ background-image: url(http://38.media.tumblr.com/3e34017bf0bf21273a63e82559ea0aa0/tumblr_n6z0ihoN8V1tn7zuzo1_500.gif);
+ background-position: bottom;
+ background-size: 10%;
+ z-index: 5;
+
+  }
+
+.navv li:hover {
+    color: red;
+  font-size: 21px;
+}
+
+h1 {
+ float: left;
+ background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 30px;
+ margin: 0px;
+ width:30%;
+ text-decoration: underline;
+ }
+
+footer {
+    background-color: #1AA1E8;
+    color: black;
+    font-size: 14px;
+    padding: 1px;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    position: fixed;
+    bottom: 0px;
+
+}
+
+.contents {
+  padding-top: 6%;
+    color: #1AA1E8;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+.headr {
+float: left;
+margin-left: 50px;
+font-size: 25px;
+clear: both;
+
+}
+
+.headr h2 {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.headr .phone {
+  float: left;
+  clear: both;
+  margin-left: 35px;
+  text-align: center;
+}
+
+.soc {
+  float: right;
+  font-size: 18px;
+  margin-right: 10px;
+  width: 30%;
+  line-height: 20px;
+}
+
+.ed {
+  clear: both;
+  float: left;
+  width: 22%;
+
+}
+
+.cas {
+  clear: both;
+  float: right;
+}
+
+.int {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.soc h2, .ed h2, .cas h2, .int h2 {
+  text-decoration: underline;
+}

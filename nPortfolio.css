@@ -1,0 +1,55 @@
+body {
+   text-align: center;
+   font-family: "Gill Sans", "Source Code Pro",  Helvetica, "ariel", sans-serif;
+   background-color: black;
+   background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.image img {
+   max-height: 500px;
+   box-shadow: 0 4px 4px 0 #222; }
+
+h1 {
+  font-family: "Source Code Pro";
+  color: #1AA1E8;
+  background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+  background-size: 60%;
+  width: 50%;
+  text-align: center;
+margin-left: auto;
+margin-right: auto;
+  }
+
+p.description {
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   text-align: center;
+   color: lightgray;
+   font-stretch: 8px;
+}
+
+a {  }
+
+#nav img {
+padding-top: 30px;
+  width: 64px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+#footer {
+  background-color: #1AA1E8;
+  color: black;
+  font-size: 14px;
+  padding: 1px;
+  width: 50%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0px;
+}
