@@ -50,7 +50,7 @@ img.thumbnail {
  box-sizing: border-box;
  font-size: 20px;
  width: 10%;
- 
+
   }
 
 .navv a {
@@ -71,7 +71,7 @@ header {
  float: left;
  width: 100%;
  padding: 0px;
- margin-top: 0px;
+ margin-top: -10px;
  background-image: url(http://38.media.tumblr.com/3e34017bf0bf21273a63e82559ea0aa0/tumblr_n6z0ihoN8V1tn7zuzo1_500.gif);
  background-position: bottom;
  background-size: 10%;
@@ -106,7 +106,7 @@ footer {
     right: 25%;
     position: fixed;
     bottom: 0px;
-
+border-radius: 24px;
 }
 
 .imag h3 { font-size: 20px; }
@@ -131,3 +131,78 @@ opacity: 0.8;
   font-size: 20px;
   letter-spacing: 2px;
   }
+
+@media only screen and (max-width: 500px) {
+  header {
+    max-width: 100%;
+    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+background-size: 100%;
+margin-right: none;
+  }
+
+  .navv li a {
+    width: 20%;
+    display: inline;
+
+  }
+
+  .navv li a:first-child {
+    padding-top: none;
+  }
+
+  .me {
+    margin-top: 100px;
+    font-size: 12px;
+    position: absolute;
+  }
+
+.imag {
+margin-right: none;
+  }
+
+  .image img {
+    max-height: 10px;
+  }
+
+  img.thumbnail {
+      width: 150px;
+      display: inline;
+    }
+    .imag a figure figcaption {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+  .me {
+    margin-top: 100px;
+    font-size: 18px;
+    position: absolute;
+  }
+  header {
+    max-width: 100%;
+    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+background-size: 100%;
+margin-right: none;
+  }
+  .image img {
+    max-height: 150px;
+  }
+
+  img.thumbnail {
+      width: 175px;
+      display: inline;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .image img {
+    max-height: 150px;
+  }
+
+  img.thumbnail {
+      width: 150px;
+      display: inline;
+    }
+}
