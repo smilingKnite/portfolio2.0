@@ -19,6 +19,7 @@ body {
   background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
   font-family: "Source Code Pro";
   width: 100%;
+
 }
 
 
@@ -91,8 +92,10 @@ footer {
 }
 
 .contents {
-  padding-top: 6%;
+  padding-top: 10%;
     color: #1AA1E8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -131,13 +134,14 @@ clear: both;
 .ed {
   clear: both;
   float: left;
-  width: 22%;
+  width: 25%;
 
 }
 
 .cas {
-  clear: both;
   float: right;
+margin-right: 40px;
+  width: 350px;
 }
 
 .int {
@@ -146,8 +150,94 @@ clear: both;
   width: 35%;
   padding-right: 50px;
   font-size: 20px;
+  margin-bottom: 100px;
 }
 
 .soc h2, .ed h2, .cas h2, .int h2 {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .headr {
+    clear: both;
+    float: none;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  .soc {
+    width: 80%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ed {
+    width: 80%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.int {
+  width: 80%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    max-width: 100%;
+    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+background-size: 100%;
+margin-right: none;
+  }
+
+  .headr {
+    clear: both;
+    float: none;
+    margin-top: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+  }
+
+  .soc {
+    width: 80%;
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ed {
+    width: 80%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .int {
+  width: 80%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .image img {
+    max-height: 150px;
+  }
+
+  img.thumbnail {
+      width: 150px;
+      display: inline;
+    }
 }
