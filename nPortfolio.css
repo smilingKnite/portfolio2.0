@@ -16,31 +16,32 @@ h1 {
   font-family: "Source Code Pro";
   color: #1AA1E8;
   background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
-  background-size: 60%;
+  background-size: 80%;
   width: 50%;
   text-align: center;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5%;
   }
 
 p.description {
    margin-left: auto;
    margin-right: auto;
-   width: 40%;
+   width: 60%;
    text-align: center;
    color: lightgray;
    font-stretch: 8px;
 }
 
-a {  }
 
 #nav img {
-padding-top: 30px;
-  width: 88px;
+padding: 30px 40px 0px 40px;
+  width: 80px;
   display: inline-block;
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
+
 
 #footer {
   background-color: #1AA1E8;
