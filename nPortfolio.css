@@ -59,9 +59,7 @@ padding-top: 30px;
   .image img {
     max-height: 250px;
   }
-  body {
-    max-width: 100%;
-  }
+
 
 }
 
@@ -77,5 +75,8 @@ padding-top: 30px;
   }
   #footer {
     border-radius: 24px;
+  }
+  body {
+    max-width: 800px;
   }
 }
