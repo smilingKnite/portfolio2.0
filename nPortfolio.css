@@ -24,6 +24,12 @@ h1 {
   height: 5%;
   }
 
+.nmcode {
+  max-width: 450px;
+}
+
+
+
 p.description {
    margin-left: auto;
    margin-right: auto;
