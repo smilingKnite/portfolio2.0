@@ -36,7 +36,7 @@ a {  }
 
 #nav img {
 padding-top: 30px;
-  width: 64px;
+  width: 72px;
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px
@@ -52,4 +52,30 @@ padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   bottom: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .image img {
+    max-height: 250px;
+  }
+  body {
+    max-width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 990px) {
+  .image img {
+    max-height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .image img {
+    max-height: 500px;
+  }
+  #footer {
+    border-radius: 24px;
+  }
 }
