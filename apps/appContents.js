@@ -8,24 +8,24 @@ var homeImageTag = "<img src='icons/white-waffle.png' />\n"
 var rightImageTag = "<img src='icons/white-right.png' />\n"
 
 //pages in order
-var contents =
+var contentsA =
 [ "tickTackBrockenShack.html",
  "noiseMaker.html" ];
 
 
 function previous (page) {
-    var item = contents.indexOf(page);
+    var item = contentsA.indexOf(page);
     item--;
-    item += contents.length;
-    item %= contents.length;
-    return contents[item];
+    item += contentsA.length;
+    item %= contentsA.length;
+    return contentsA[item];
 }
 
 function next (page) {
-    var item = contents.indexOf(page);
+    var item = contentsA.indexOf(page);
     item++;
-    item %= contents.length;
-    return contents[item];
+    item %= contentsA.length;
+    return contentsA[item];
 }
 
 function makeImageLink (link, image) {
@@ -39,7 +39,7 @@ function makeNav () {
     var myFile = myUrl[ myUrl.length-1 ];
 
     navHtml += makeImageLink (previous (myFile), leftImageTag);
-    navHtml += makeImageLink ('nIndex.html', homeImageTag);
+    navHtml += makeImageLink ('appIndex.html', homeImageTag);
     navHtml += makeImageLink (next (myFile), rightImageTag);
 
     document.getElementById ('nav').innerHTML = navHtml;
