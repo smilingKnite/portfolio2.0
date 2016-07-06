@@ -9,25 +9,8 @@ var rightImageTag = "<img src='icons/white-right.png' />\n"
 
 //pages in order
 var contents =
-[ "karmicEye.html",
- "bankseyMonkey.html",
- "owlTattoo.html",
- "geoffry.html",
- "Waffles.html",
- "dreamState.html",
- "stenciledSeattle.html",
- "openedApple.html",
- "personalSuicideSquad.html",
- "deadAstronaut.html",
- "deadByPineapple.html",
- "rick.html",
- "tickTackBrockenShack.html",
- "noiseMaker.html",
- "resume.html",
- "adobeIcons.html",
- "basketball.html",
- "spiderman.html",
- "missionStatement.html"];
+[ "tickTackBrockenShack.html",
+ "noiseMaker.html" ];
 
 
 function previous (page) {
