@@ -8,7 +8,7 @@ h1, .imag h3 {
       color: #1AA1E8;
     }
 
-    .imag figure, footer, body {
+    .imag figure, footer {
         margin-left: auto;
         margin-right: auto;
       }
@@ -20,9 +20,10 @@ body {
   background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
   font-family: "Source Code Pro";
   width: 100%;
+  max-height: 1000px;
+  max-width: 1400px;
 }
 
-.image img { max-height: 30px; }
 
 img.thumbnail {
     width: 200px;
@@ -132,58 +133,103 @@ opacity: 0.8;
   letter-spacing: 2px;
   }
 
-@media only screen and (max-width: 500px) {
-  header {
-    max-width: 100%;
-    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
-background-size: 100%;
-margin-right: none;
+
+
+
+
+@media screen and (orientation:portrait) {
+
+header {
+  background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+  background-size: 100%;
+}
+  header h1 {
+    float: none;
+    clear: both;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
+.navv li {
+  margin: 15px;
+}
+.me {
+  margin-top: 12%;
+  font-size: 16px;
+  margin-left: 16%;
+  float: none;
+  width: 70%;
+  transform: translateY(65px);
+  z-index: 1;
+  background-image: url(http://i408.photobucket.com/albums/pp166/ruthies_album/stars-3.gif);
+}
+body {
+  margin-top: -10px;
+  background-image: url(http://i408.photobucket.com/albums/pp166/ruthies_album/stars-3.gif);
+}
+ .imag figure {
+  clear: both;
+  float: none;
+}
 
-  .navv li a {
-    width: 20%;
-    display: inline;
-
+img.thumbnail {
+    width: 150px;
+    display: inline-block;
   }
+.imag {
+float: none;
+width: 40%;
+transform: translateY(550px);
+z-index: -7;
+opacity: 0.8;
+margin-left: auto;
+margin-right: auto;
+border-color: transparent;
+}
 
-  .navv li a:first-child {
-    padding-top: none;
+}
+
+
+@media screen and (max-width: 700px) {
+  body {
+    margin-top: 0px;
+    padding-top: 0px;
   }
-
   .me {
-    margin-top: 100px;
-    font-size: 12px;
-    position: absolute;
+    float: none;
+    clear:both;
+    margin-top: 16%;
+    font-size: 16px;
+    width: 80%;
+    margin-left: 10%;;
+    margin-right: 10%;
+    z-index: 1;
   }
 
 .imag {
-margin-right: none;
-  }
-
-  .image img {
-    max-height: 10px;
-  }
-
-  img.thumbnail {
-      width: 150px;
-      display: inline;
-    }
-    .imag a figure figcaption {
-      display: none;
-    }
+  float: none;
+  clear: both;
+  border-left: none;
+  z-index: 0;
+  display: inline-block;
+  margin-top: 5%;
 }
 
-@media only screen and (max-width: 990px) {
+
+}
+
+
+
+
+@media screen and (max-width: 200px) {
   .me {
-    margin-top: 100px;
-    font-size: 18px;
-    position: absolute;
+    margin-top: 10%;
+    font-size: 14px;
+    position: relative;
   }
   header {
     max-width: 100%;
-    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
-background-size: 100%;
-margin-right: none;
+    margin-right: none;
   }
   .image img {
     max-height: 150px;
@@ -194,15 +240,16 @@ margin-right: none;
       display: inline;
     }
 }
-
-@media only screen and (max-width: 1000px) {
+/*
+@media screen and (max-width: 1520px) {
 
   .image img {
-    max-height: 150px;
+    max-height: 140px;
   }
 
   img.thumbnail {
-      width: 150px;
+      width: 140px;
       display: inline;
     }
 }
+*/
