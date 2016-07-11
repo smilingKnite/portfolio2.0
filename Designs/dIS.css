@@ -3,6 +3,12 @@ body, footer {
     text-align: center;
   }
 
+header { position: fixed; }
+
+h1 {
+      color: #1AA1E8;
+    }
+
     .imagd figure, footer, body {
         margin-left: auto;
         margin-right: auto;
@@ -68,7 +74,7 @@ header {
  margin-top: -10px;
  background-image: url(http://38.media.tumblr.com/3e34017bf0bf21273a63e82559ea0aa0/tumblr_n6z0ihoN8V1tn7zuzo1_500.gif);
  background-position: bottom;
- background-size: 20%;
+ background-size: 10%;
  z-index: 5;
 
   }
@@ -79,16 +85,15 @@ header {
 }
 
 h1 {
-  background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
  float: left;
-  padding-top: 20px;
+ background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
+ padding-top: 20px;
  padding-bottom: 20px;
  padding-left: 30px;
  padding-right: 30px;
  margin: 0px;
  width:30%;
  text-decoration: underline;
- color: #1AA1E8;
  }
 
 footer {
@@ -110,7 +115,7 @@ z-index: -5;
 opacity: 0.8;
 }
 
-.intro {
+p {
   padding-top: 10%;
   width: 60%;
   margin-left: auto;
@@ -121,76 +126,35 @@ opacity: 0.8;
   line-height: 25px;
 }
 
-@media screen and (orientation:portrait) {
+@media only screen and (max-width: 500px) {
 
-header {
-  background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
-  background-size: 100%;
-}
-  header h1 {
-    float: none;
+  .headr {
     clear: both;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-.navv li {
-  margin: 15px;
-}
-.imagd {
-  padding-top: 8%;
-    color: #1AA1E8;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10%;
-}
-body {
-  margin-top: -10px;
-  background-image: url(http://i408.photobucket.com/albums/pp166/ruthies_album/stars-3.gif);
-}
-
-footer {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.intro {
-  text-align: center;
-  font-size: 16px;
-  padding-top: 10%;
-}
-
-}
-
-@media screen and (max-width:110px) {
-
-header {
-  background-image: url(http://picpuddle.com/wp-content/uploads/2014/06/tumblr-backgrounds-giflumineux-and-small-girls-perfect-oqkvdrnp.gif);
-  background-size: 100%;
-}
-  header h1 {
     float: none;
-    clear: both;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
   }
-.navv li {
-  margin: 15px;
-}
-.imagd {
-  padding-top: 8%;
-    color: #1AA1E8;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-body {
-  margin-top: -10px;
-  background-image: url(http://i408.photobucket.com/albums/pp166/ruthies_album/stars-3.gif);
+
 }
 
+@media only screen and (max-width: 990px) {
+  header {
+    max-width: 100%;
+    background-image: url(http://media.giphy.com/media/O0QCryNMAqiVW/giphy.gif);
+background-size: 100%;
+margin-right: none;
+  }
 
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .imagd{
+    max-height: 250px;
+  }
+
+  .imagd img.thumbnail {
+      width: 250px;
+      display: inline;
+    }
 }

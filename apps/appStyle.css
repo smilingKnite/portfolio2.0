@@ -56,7 +56,7 @@ header {
  margin-top: 0px;
  background-image: url(http://38.media.tumblr.com/3e34017bf0bf21273a63e82559ea0aa0/tumblr_n6z0ihoN8V1tn7zuzo1_500.gif);
  background-position: bottom;
- background-size: 20%;
+ background-size: 10%;
  z-index: 5;
 
   }
@@ -157,7 +157,7 @@ margin-right: 40px;
   text-decoration: underline;
 }
 
-@media only screen and (orientation:portrait) {
+@media only screen and (max-width: 500px) {
 
   .headr {
     clear: both;
